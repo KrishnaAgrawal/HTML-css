@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Art School</title>
+		<link href='Images/favicon.jpg' rel='icon' />
+		<link href="css/top.css" rel="stylesheet" />
+		<script>
+			var allimages=['slider1.jpg','slider2.jpg','slider3.jpg'];
+c=0;
+function moveSlider(){
+	var im = document.getElementById("imslider");
+	im.src="images/"+allimages[c];
+	
+	c++;
+	if(c==allimages.length){
+		c=0;
+	}
+	window.setTimeout("moveSlider()",4000);
+}
+		</script>
+	</head>
+	
+	<body onload="moveSlider()">
+		<div class="header">
+			
+			<div class="header3"></div>
+			<div class="header2"></div>
+			
+		</div>
+		<div class="slider">
+			
+			<img id="imslider" />
+		<br />
+		<br />
+		
+		<li><a href="index.html"><span style="color:black;">HOME</span></a></li>
+		<li><a href="about.html"><span style="color:green;">ABOUT</span></a></li>
+		<li><a href="schedule.html"><span style="color:blue;">SCHEDULE</span></a></li>
+		<li><a href="gallery.html"><span style="color:orange;">GALLERY</span></a></li>
+		<li><a href="contact.html"><span style="color:purple;">CONTACT</span></a></li>
+		</div>
+		
+		<div class="top_body">
+			<div class="t_left">
+		
+			<img src="images/art.png" alt="art" />
+		
+			</div>
+			<div class="t_right">
+			
+				<h1 style="text-align:center;color:white;">Welcome to Art School</h1>
+				<br />
+				<span style="font-size:20px;">Art School is website templates. This template was designed for 1280X1024 screen resolution. This page is designed on HTML, CSS3 & JavaScript. This page is designed on HTML, CSS3 & JavaScript. This page is designed on HTML, CSS3 & JavaScript.</span>
+			
+			</div>
+		</div>
+		
+		
+		<div id="parent">
+			
+				<div id="lside">
+				
+					<h1>Events</h1>
+					<i><span style="font-size:20px;color:white;margin-bottom:50px;">April 18- "Spring's Bloom"</span></i>
+					<br /><br /><br />
+					<span style="font-size:15px;color:gray;">The PSD source files of this <a href="#" style="text-decoration:none;color:red;">Art School Template</a> are available for free for the registered members of Template. Feel free to get them.</span>
+					<br /><br /><br />
+					<i><span style="font-size:20px;color:white;">April 01- "Smile!"</span></i>
+					<br /><br /><br />
+					<span style="font-size:15px;color:gray;">The PSD source files of this <a href="#" style="text-decoration:none;color:red;margin-bottom:50px;">Art School Template</a> are available for free for the registered members of Template. Feel free to get them.</span>
+					<br /><br /><br />
+					<span style="font-size:25px;"><a href="#" style="text-decoration:none;color:red;margin-left:20px;;">News Archive</a></span>
+				
+				</div>
+				
+				
+				
+				<div id="center">
+				<br />
+					<h1 style="margin-left:50px;">Our Gallery</h1>
+					<img src="images/gallery-1.jpg" />
+					<img src="images/gallery-2.jpg" />
+					<span style="margin-left:120px;font-size:15px;font-weight:bold;">Jennifer,10 years</span>
+					<span style="margin-left:220px;font-weight:bold;">Martin, 13 years</span>
+					<br />
+					<img src="images/gallery-3.jpg" />
+					<img src="images/gallery-4.jpg" />
+					<span style="margin-left:120px;font-weight:bold;">Sebastian, 14 years</span>
+					<span style="margin-left:220px;font-weight:bold;">Fiona, 8 years</span>
+					
+					
+					<h1 style="margin-left:279px;font-size:27px;"><a href="#" style="text-decoration:none;color:#A0A0A0;">~:Full Gallery:~</a></h1>
+				</div>
+				
+			</div>
+		<br />
+		<div class="footer"><br /><br /><br /><br /><br />
+		<span>&copy;2017 Art School</span>
+		<br />
+		<a href="#">Free Html5 Template </a>by <a href="#">Shree Krishna Agrawal</a> | <a href="#">shreekrishnaagrawal@gmail.com</a>
+			
+		
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>

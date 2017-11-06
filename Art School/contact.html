@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Art School</title>
+		<link href='Images/favicon.jpg' rel='icon' />
+		<link href="css/contact.css" rel="stylesheet" />
+		<script>
+			var allimages=['slider1.jpg','slider2.jpg','slider3.jpg'];
+c=0;
+function moveSlider(){
+	var im = document.getElementById("imslider");
+	im.src="images/"+allimages[c];
+	
+	c++;
+	if(c==allimages.length){
+		c=0;
+	}
+	window.setTimeout("moveSlider()",4000);
+}
+		</script>
+	</head>
+	
+	<body onload="moveSlider()">
+		<div class="header">
+			
+			<div class="header3"></div>
+			<div class="header2"></div>
+			
+		</div>
+		<div class="slider">
+			
+			<img id="imslider" />
+		<br />
+		<br />
+		
+		<li><a href="index.html"><span style="color:darkcyan;">HOME</span></a></li>
+		<li><a href="about.html"><span style="color:green;">ABOUT</span></a></li>
+		<li><a href="schedule.html"><span style="color:blue;">SCHEDULE</span></a></li>
+		<li><a href="gallery.html"><span style="color:orange;">GALLERY</span></a></li>
+		<li><a href="contact.html"><span style="color:black;">CONTACT</span></a></li>
+		</div>
+		
+		<div id="parent">
+			
+				<div id="lside">
+				
+					<h1>Conatct Us</h1>
+					
+					<span>
+					<li>Shree Krishna Agrawal,</li>
+					<li>Chaudhary Boys Hostel,</li>
+					<li>Opposite RKGIT Managment,</li>
+					<li>Near Mistubishi Showroom,</li>
+					<li>Delhi-Meerut Road,</li>
+					<li>Ghaziabad-201003,</li>
+					<li>Uttar Pradesh,</li>
+					<li>India.</li>
+					<li style="color:red;">+91&nbsp;8285889083</li>
+					<li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">shreekrishnaagrawal@gmail</a></li>
+					</span>
+					
+				</div>
+				
+				
+				
+				<div id="center">
+				
+				
+				<div class="btw">
+					<h1>Contact Form</h1>
+					<span>Hello, you can send message to us.</span>
+					<br /><br />
+					<span>Name<sup>*</sup></span>
+					<br />
+					<input type="text" name="#" required="true" placeholder="Please enter your name" />
+					<br />
+					<span>Email<sup>*</sup></span>
+					<br />
+					<input class="txtid"  type="email" name="#" required="true" placeholder="youremail@service.com" />
+					<br />
+					
+					<span>Message<sup>*</sup></span>
+					<br />
+					<textarea  type="text" name="#" required="true" placeholder="Please enter your message" style="resize:none;"></textarea>
+					<br />
+					<br />
+					<button type="submit" style="margin-left:180px;" >Send</button>
+					<button type="reset">Clear</button>
+					
+					
+				</div>
+				</div>
+				
+			</div>
+		<br />
+		<div class="footer"><br /><br /><br />
+		<span>&copy;2017 Art School</span>
+		<br />
+		<a href="#">Free Html5 Template </a>by <a href="#">Shree Krishna Agrawal</a> | <a href="#">shreekrishnaagrawal@gmail.com</a>
+			
+		
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</body>
+</html>
